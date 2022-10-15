@@ -1,6 +1,7 @@
 <?php
 
 echo @color('red',"Note: Jika status sukses tetapi pulsa tidak terpotong berarti gangguan \n\n");
+echo @color('red',"Paket yang berhasil sukses : Paket nomor 2 \n\n");
 
 echo @color('green', "\tINPUT NUMBER (089xxxxnx.com)\n\t: ");
 $nomor = trim(fgets(STDIN));
